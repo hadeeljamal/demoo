@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/multi.css" />
+    <link rel="stylesheet" href="css/rtl/bootstrap.min.css" />
+    <script src="js/mj.js" defer></script>
+    <title>Registraion Form</title>
+</head>
+
+<body>
+    <form action="#" class="form">
+        <h4 class="my-3">طلب الخدمة </h4>
+        <!-- Progress bar -->
+        <div class="progressbar">
+            <div class="progress" id="progress"></div>
+
+            <div class="progress-step progress-step-active" data-title=" نوع الخدمة"></div>
+            <div class="progress-step" data-title="الموقع الجغرافي"></div>
+            <div class="progress-step" data-title="التكلفة والدفع "></div>
+            <div class="progress-step" data-title="اخرى"></div>
+        </div>
+
+        <!-- Steps -->
+        <div class="form-step form-step-active">
+            <div class="pre-roq">
+                <div class="row ">
+                    <div class="col-lg-12 ">
+                            <label for="username"> اختر نوع الخدمة</label>
+
+                            <p >
+                                <select name="" id="" class="form-control">
+                                    <option value="">ليموزين  </option>
+                                    <option value="">باص </option>
+
+                                    <option value="">سيارة ركاب  </option>
+
+                                    <option value="">شحن  </option>
+
+                                </select>
+                            </p>
+                           
+                    </div>
+             
+
+                </div>
+            </div>
+
+            <div class="" style="position:relative ;">
+                <a href="#" class="btn btn-next width-50 " style="position: absolute; left:0;">Next</a>
+            </div>
+        </div>
+
+        <div class="form-step">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <div class="input-group" >
+                        <button type="button" class='btn btn-primary' onclick="get_position();" style="margin:auto ;">See My Position</button>
+                        <div id="location_content" class="text-center"></div>
+                        <div id="map" class="my-3"></div>
+                    </div>
+
+
+                </div>
+
+                
+               
+
+            </div>
+              
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Previous</a>
+                <a href="#" class="btn btn-next">Next</a>
+            </div> 
+            </div>
+
+        </div>
+
+
+        <div class="form-step">
+            <div class="col-lg-12">
+            
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <div class="input-group ">
+                            <label for="">التكلفة</label>
+                            <input type="text" name="" id="" placeholder=''>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="input-group ">
+                            <label for="">owner</label>
+                            <input type="text" name="" id="" placeholder=' '>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-12">
+                        <div class="input-group">
+                            <label for="">cvv</label>
+                            <input type="number" name="" id="" placeholder=' '>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="input-group">
+                            <label for="">card number</label>
+                            <input type="number" name="" id="" placeholder=' '>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="input-group">
+                           <img src="mc.png" alt="" width="100px" class="ml-4">
+                           <img src="pp.png" alt=""  width="100px">
+                           <img src="vi.png" alt=""  width="100px">
+
+                        </div>
+                    </div>
+
+                </div>
+                
+               
+
+
+              
+
+            </div>
+
+
+           
+
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Previous</a>
+                <a href="#" class="btn btn-next">Next</a>
+              </div>
+        </div>
+
+
+        <div class="form-step">
+            <div class="alert alert-success" role="alert">
+                <p class="text-center">
+                 <i class="fa-solid fa-circle-check text-center" style="font-size:50px ;"></i>
+                </p>
+                <p class="text-center">Success !</p>
+              </div>
+              <div class="btns-group">
+                <a href="#" class="btn btn-prev">Previous</a>
+                <input type="submit" value="Submit" class="btn" />
+              </div>
+        </div>
+    </form>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+</body>
+
+</html>
